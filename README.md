@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Learning Objectives
 * At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
@@ -44,3 +45,8 @@ Your code should use the pycodestyle (version 2.8.*)
 * The prototypes of all your functions should be included in your header file called lists.h
 * Don’t forget to push your header file
 * All your header files should be include guarded
+=======
+# Higher-level Programming (Python)
+
+* This repo contains projects and task from ALX software engineering programme. * The higher level language used or adopted is python.
+>>>>>>> 66343e865897738858c93a773b288529b3801f58
