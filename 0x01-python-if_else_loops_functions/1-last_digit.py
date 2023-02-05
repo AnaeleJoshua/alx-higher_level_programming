@@ -10,12 +10,12 @@ last_digit = number[len(number) - 1]
 last_digit = int(last_digit)
 #if last digit is greater than 5, 
 if last_digit >  5:
-	print(f"Last digit of {number} is {last_digit} and is greater than 5 \n")
+	print(f"Last digit of {number} is {last_digit} and is greater than 5 ")
 #else if string is zero
 elif last_digit == 0:
-	print(f"Last digit of {number} is {last_digit} and is zero\n")
+	print(f"Last digit of {number} is {last_digit} and is zero")
 #is greater than 0 but less than 6
 else:
-	  print(f"Last digit of {number} is {last_digit} and is greater than 0 but less than 6\n ")
+	  print(f"Last digit of {number} is {last_digit} and is greater than 0 but less than 6")
 
 
