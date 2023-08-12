@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""sums all command line argument"""
 
 
 import sys

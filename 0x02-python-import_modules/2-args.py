@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""computes the length of the cl arguments and prints them out"""
+
+
 import sys
 
 
