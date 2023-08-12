@@ -10,4 +10,4 @@ b = 2
 
 
 if __name__ == '__main__':
-    print(f'{a} + {b} = {add(a,b)}')
+    print('{} + {} = {}'.format(a,b,add(a,b)))
