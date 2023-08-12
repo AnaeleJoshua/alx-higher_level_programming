@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+import sys
+
+
+def printArg():
+    arg = sys.argv[1:]
+    print(f'{len(arg)} arguments:')
+    if len(arg) >= 1:
+        i = 0
+        for i in range(len(arg)):
+            print(f'{i + 1} : {arg[i]}')
+    else:
+        print('.')
+
+
+if __name__ == '__main__':
+    printArg()
