@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""performs addition on two number"""
+"""performs the addition on two number"""
 
 
 from add_0 import add
@@ -10,4 +10,4 @@ b = 2
 
 
 if __name__ == '__main__':
-    print('{} + {} = {}'.format(a,b,add(a,b)))
+    print('{} + {} = {}'.format(a, b, add(a, b)))
