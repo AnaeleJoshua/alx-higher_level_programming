@@ -7,13 +7,13 @@ import sys
 
 def printArg():
     arg = sys.argv[1:]
-    print('{} arguments:'.format(len(arg)))
     if len(arg) >= 1:
+        print('{} arguments:'.format(len(arg)))
         i = 0
         for i in range(len(arg)):
             print('{} : {}'.format(i + 1, arg[i]))
     else:
-        print('.')
+        print('{} arguments.'.format(len(arg)))
 
 
 if __name__ == '__main__':
