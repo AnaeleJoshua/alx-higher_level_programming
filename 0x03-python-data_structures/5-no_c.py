@@ -9,9 +9,13 @@ def no_c(my_string):
     You are not allowed to import any module
     You are not allowed to use str.replace()
     """
-    for i in my_string:
-       # print(i)
-        if (i == "c" or i == "C"):
-            i = ""
-            return my_string
+    my_string = my_string
 
+    a = ""
+    my_string_array = [char for char in my_string if char != 'c' if char != 'C']
+    return print(a.join(my_string_array).strip())
+
+
+if __name__ == '__main__':
+    no_c('c is fun')
+    no_c('Best SChool')
