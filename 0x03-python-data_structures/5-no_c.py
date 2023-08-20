@@ -17,5 +17,4 @@ def no_c(my_string):
 
 
 if __name__ == '__main__':
-    no_c('c is fun')
-    no_c('Best SChool')
+   no_c() 
